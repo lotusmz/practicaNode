@@ -1,0 +1,25 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"gulp dev",
+    "build": "gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-stylelint": "^7.0.0",
+    "gulp-uglify": "^3.0.1",
+    "node-sass": "^4.9.3",
+    "stylelint": "^9.5.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.3.1",
+    "flexboxgrid-sass": "^8.0.5"
+  }
+}
