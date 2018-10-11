@@ -1,15 +1,11 @@
 @import "vendor/module";
 
-.box, .box-row{
+.slider{
     position: relative;
     box-sizing: border-box;
-    min-height: 1rem;
+    height: 100%;
     margin-bottom: 0;
-    background: #007FFF;
-    border: 1px solid #FFF;
-    border-radius: 2px;
-    overflow: hidden;
-    text-align: center;
-    color: #fff;
-    }
+    background-image: url("images/slider_background.jpg");
+    background-position: center; 
+}
 
