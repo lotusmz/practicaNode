@@ -5,7 +5,14 @@
     box-sizing: border-box;
     height: 100%;
     margin-bottom: 0;
-    background-image: url("images/slider_background.jpg");
-    background-position: center; 
+    background: linear-gradient(
+        rgba(0,0,0, 0.4), 
+        rgba(0,0,0, 0.4)
+      ), 
+      url("../img/slider_background.jpg") 
+      center;
 }
 
+.header{
+    
+}    
